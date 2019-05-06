@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  
+  <header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+         <button class="toggle_mnu">
+          <span class="sandwich">
+            <span class="sw-topper"></span>
+            <span class="sw-bottom"></span>
+            <span class="sw-footer"></span>
+          </span>
+    </button>      
+    <div class="top_mnu">
+          <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="tariffs.html">Тарифы</a></li>
+            <li><a href="functional.html">Функционал</a></li>
+            <li><a href="baza.html">База знаний</a></li>
+            <li><a href="partner.html">Партнерка</a></li>
+            <li><a href="feed.html">Отзывы</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="#">Вход</a>
+        </div>     
+    </div>
+        <div class="login">
+          <a href="#">Вход</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <h1 id="second">ОТЗЫВЫ О ALIENVDS</h1>
+      <p id="second2">Оставьте отзыв о нашей компании</p>
+      <div class="margin"></div>
+    </div>
+    <div class="bg"></div>
+  </section>
+
+  <section class="feed">
+    <div class="container">
+      <div class="wrapper">
+        <div class="block">
+          <img src="img/feed.png" alt="">
+        </div>
+        <div class="block">
+          <p>- Вам понравилось качество, скорость тех. поддержки, удивили приятные цены или другое? Мы будем благодарны Вам за оставленный отзыв.</p>
+          <p>- Если же вам не понравился хостинг, тогда, пожалуйста, максимально точно аргументируйте причину неудовлетворения. Мы с радостью исправим ошибки, если они ДЕЙСТВИТЕЛЬНО имеются.</p>
+          <p>- ВНИМАНИЕ: мы имеем право удалить за собой негативный отзыв, если он не будет полностью обоснован. Комментарии, такие как: "хостинг ужасный, здесь не покупайте" будут сразу же удалятся. Если же отзыв будет обоснован, он будет оставлен, и все ошибки исправятся в этот же день.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="social">
+    <div class="container">
+      <ul>
+        <li><a href="#" target="_blank"><img src="img/soc1.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc2.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc3.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc4.png" alt=""></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <a class="sign" href="#">Регистрация</a>
+      <p>Узнать больше</p>
+      <ul class="but">
+        <li><a href="#">Возможности</a></li>
+        <li><a href="javascript:popupOpen();">Задать вопрос</a></li>
+      </ul>
+      <div class="wrapper">
+        <div class="pay">
+          <p>Способы оплаты:</p>
+          <ul>
+            <li><a href="#"><img src="img/pay1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay5.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay6.jpg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="cont">
+          <ul>
+            <li><a href="mailto:info@alienvds.com">info@alienvds.com</a></li>
+            <li><a href="#">Публичная офёрта</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <div class="opacity"></div>
+    <div class="cont">
+      <div class="close">x</div>
+      <p>Для осуществления заказа оставьте свои данные:</p>
+      <form action="php/send.php" method="POST">
+        <input type="text" name="name" placeholder="Введите имя" required>
+        <input type="text" name="mail" placeholder="Введите адресс электронной почты" required>
+        <textarea name="text" placeholder="Введите сообщение"></textarea>
+        <button>Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+
+</html>

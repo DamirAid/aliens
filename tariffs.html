@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  
+  <header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <button class="toggle_mnu">
+            <span class="sandwich">
+              <span class="sw-topper"></span>
+              <span class="sw-bottom"></span>
+              <span class="sw-footer"></span>
+            </span>
+      </button>     
+      <div class="top_mnu">    
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="tariffs.html">Тарифы</a></li>
+            <li><a href="functional.html">Функционал</a></li>
+            <li><a href="baza.html">База знаний</a></li>
+            <li><a href="partner.html">Партнерка</a></li>
+            <li><a href="feed.html">Отзывы</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="#">Вход</a>
+        </div>     
+       </div>         
+        <div class="login">
+          <a href="#">Вход</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <h1 id="second">ТАРИФЫ</h1>
+      <p id="second2">На всех тарифах используются SSD-диски</p>
+      <div class="tarif">
+        <div class="block">
+          <p>OpenVZ</p>
+          <div id="tarifOne" class="but">
+            <p>ПОДРОБНЕЕ</p>
+          </div>
+        </div>
+        <div class="block">
+          <p>Backup</p>
+          <div id="tarifTwo" class="but">
+            <p>ПОДРОБНЕЕ</p>
+          </div>
+        </div>
+        <div class="block">
+          <p>Доп. сервисы</p>
+          <div id="tarifTree" class="but">
+            <p>ПОДРОБНЕЕ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg"></div>
+  </section>
+
+  <section class="second">
+    <div class="container">
+      <div class="baner tar">
+        <div class="cont">
+          <p><span>ЛОКАЦИЯ ВО ФРАНЦИИ</span></p>
+          <p class="text">Предоставляем только лучший Дата-центр для размещения Вашего VDS</p>
+          <a href="#">ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="social">
+    <div class="container">
+      <ul>
+        <li><a href="#" target="_blank"><img src="img/soc1.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc2.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc3.png" alt=""></a></li>
+        <li><a href="#" target="_blank"><img src="img/soc4.png" alt=""></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <a class="sign" href="#">Регистрация</a>
+      <p>Узнать больше</p>
+      <ul class="but">
+        <li><a href="#">Возможности</a></li>
+        <li><a href="javascript:popupOpen();">Задать вопрос</a></li>
+      </ul>
+      <div class="wrapper">
+        <div class="pay">
+          <p>Способы оплаты:</p>
+          <ul>
+            <li><a href="#"><img src="img/pay1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay5.jpg" alt=""></a></li>
+            <li><a href="#"><img src="img/pay6.jpg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="cont">
+          <ul>
+            <li><a href="mailto:info@alienvds.com">info@alienvds.com</a></li>
+            <li><a href="#">Публичная офёрта</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <div class="opacity"></div>
+    <div class="cont">
+      <div class="close">x</div>
+      <p>Для осуществления заказа оставьте свои данные:</p>
+      <form action="php/send.php" method="POST">
+        <input type="text" name="name" placeholder="Введите имя" required>
+        <input type="text" name="mail" placeholder="Введите адресс электронной почты" required>
+        <textarea name="text" placeholder="Введите сообщение"></textarea>
+        <button>Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popupTarif tarifOne">
+    <div class="opacity"></div>
+    <div class="content">
+      <div class="close">x</div>
+      <div class="block">
+        <p class="title">Память</p>
+        <p>Процессор</p>
+        <p>Диск SSD</p>
+        <p>Трафик</p>
+        <p>Канал</p>
+        <p>Бэкап</p>
+        <p>Защита от DDOS</p>
+        <p>Цена за 1 месяц</p>
+        <p>Цена за 3 месяца</p>
+        <p>Цена за 1 год</p>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD Mini</h4>
+        <p>512 Мб</p>
+        <p>1×600 МГц</p>
+        <p>5 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>1.5$</p>
+        <p>4$</p>
+        <p>17$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 1024M</h4>
+        <p>1024 Мб</p>
+        <p>1×2400 МГц</p>
+        <p>15 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>3$</p>
+        <p>8$</p>
+        <p>32$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 2048M</h4>
+        <p>2048 Мб</p>
+        <p>1×2400 МГц</p>
+        <p>20 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>6$</p>
+        <p>16$</p>
+        <p>60$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 3072M</h4>
+        <p>3072 Мб</p>
+        <p>2×2400 МГц</p>
+        <p>25 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>8$</p>
+        <p>22$</p>
+        <p>86$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 4096M</h4>
+        <p>4096 Мб</p>
+        <p>3×2400 МГц</p>
+        <p>35 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>10$</p>
+        <p>31$</p>
+        <p>118$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 6114M</h4>
+        <p>6114 Мб</p>
+        <p>3×3000 МГц</p>
+        <p>55 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>15$</p>
+        <p>42$</p>
+        <p>158$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 8192M</h4>
+        <p>8192 Мб</p>
+        <p>4×3700 МГц</p>
+        <p>75 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>20$</p>
+        <p>57$</p>
+        <p>216$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>OpenVZ SSD 16384M</h4>
+        <p>16384 Мб</p>
+        <p>4×4000 МГц</p>
+        <p>100 Гб</p>
+        <img src="img/infinite.png" alt="">
+        <p>1000 мб/с</p>
+        <img src="img/shield.png" alt="">
+        <img src="img/shield.png" alt="">
+        <p>30$</p>
+        <p>85$</p>
+        <p>324$</p>
+        <a href="#">Заказать</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="popupTarif tarifTwo">
+    <div class="opacity"></div>
+    <div class="content">
+      <div class="close">x</div>
+      <div class="block">
+        <p class="title">Место на диске</p>
+        <p>FTP аккаунтов</p>
+        <p>Цена за 1 месяц</p>
+        <p>Цена за 1 год</p>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Backup 50</h4>
+        <p>50 ГБ</p>
+        <p>5</p>
+        <p>3$</p>
+        <p>30$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Backup 100</h4>
+        <p>100 ГБ</p>
+        <p>10</p>
+        <p>5$</p>
+        <p>50$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Backup 200</h4>
+        <p>200 ГБ</p>
+        <p>20</p>
+        <p>9$</p>
+        <p>90$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Backup 500</h4>
+        <p>500 ГБ</p>
+        <p>30</p>
+        <p>14$</p>
+        <p>140$</p>
+        <a href="#">Заказать</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="popupTarif tarifTree">
+    <div class="opacity"></div>
+    
+    <div class="content">
+      <div class="close">x</div>
+      <div class="block">
+        <p class="title">Цена дополнительного IP адресса *</p>
+        <p>Администрирование 1 час *</p>
+        <p>Администрирование 1 месяц *</p>
+        <p>ISPmanager Lite 1 месяц *</p>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Франция</h4>
+        <p>1$</p>
+        <p>10$</p>
+        <p>50$</p>
+        <p>5$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Украина</h4>
+        <p>1,5$</p>
+        <p>10$</p>
+        <p>50$</p>
+        <p>5$</p>
+        <a href="#">Заказать</a>
+      </div>
+      <div class="block">
+        <img src="img/money.png" alt="">
+        <h4>Россия</h4>
+        <p>1,5$</p>
+        <p>10$</p>
+        <p>50$</p>
+        <p>5$</p>
+        <a href="#">Заказать</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+
+</html>
